@@ -3,7 +3,6 @@ Solution for : https://leetcode.com/problems/minimum-path-sum/
 */
 
 int minPathSum(vector<vector<int>>& grid) {
-       int minPathSum(vector<vector<int> > &grid) {
         if (grid.empty() || grid[0].empty()) return 0;
         int m = grid.size(), n = grid[0].size();
 
@@ -16,4 +15,4 @@ int minPathSum(vector<vector<int>>& grid) {
 
         return dp.back();
     }
-}
+
